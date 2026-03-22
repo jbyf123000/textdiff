@@ -17,6 +17,21 @@
 dotnet run --project .\TextDiff.Desktop\TextDiff.Desktop.csproj
 ```
 
+## 生成安装包
+
+先安装 `Inno Setup 6`，然后在项目根目录执行：
+
+```powershell
+.\scripts\build-installer.ps1
+```
+
+这个脚本会先发布自包含的单文件程序，再调用 Inno Setup 生成安装包。
+
+默认输出位置：
+
+- 发布目录：`TextDiff.Desktop\bin\Release\net10.0-windows\win-x64\publish\`
+- 安装包目录：`installer\Output\`
+
 ## 界面说明
 
 - 左侧和右侧分别输入或载入文本

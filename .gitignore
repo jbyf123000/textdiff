@@ -9,6 +9,8 @@ obj/
 artifacts/
 publish/
 TestResults/
+installer/Output/
+installer/Build/
 *.user
 *.suo
 *.cache
