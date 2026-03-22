@@ -1,0 +1,15 @@
+bin/
+obj/
+.vs/
+.idea/
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+.git.backup-*/
+artifacts/
+publish/
+TestResults/
+*.user
+*.suo
+*.cache
+*.log

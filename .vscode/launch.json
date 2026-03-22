@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch TextDiff.Desktop",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build textdiff",
+      "program": "${workspaceFolder}/TextDiff.Desktop/bin/Debug/net10.0-windows/TextDiff.Desktop.dll",
+      "cwd": "${workspaceFolder}/TextDiff.Desktop",
+      "stopAtEntry": false,
+      "console": "internalConsole",
+      "internalConsoleOptions": "neverOpen",
+      "justMyCode": true
+    }
+  ]
+}
